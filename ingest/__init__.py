@@ -1,1 +1,1 @@
-from ingest.ingest_production_data import ingest_production_data
+from ingest import ingest_production_data
