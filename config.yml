@@ -1,0 +1,12 @@
+data_settings:
+  # set path to data directory
+  data_dir_path: data
+
+  # set name for production raw data within data directory
+  prod_raw_dir_name: prod_raw
+
+  # set name for directory to hold processed raw data files
+  processed_dir: processed
+
+  # set name for the parquet file to be created to hold all production raw data
+  prod_data_file_name: production.parquet
