@@ -1,2 +1,3 @@
 data/*
 ruff.toml
+__pycache__/

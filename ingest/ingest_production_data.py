@@ -24,7 +24,7 @@ if not os.path.isdir(processed_dir):
 # check if outfile exists, if not, create it with first file
 if not os.path.exists(outfile):
     file = files.pop(0)
-    parse_production_csv(prod_raw_dir, files.pop(0)).write_parquet(outfile)
+    parse_production_csv(prod_raw_dir, file).write_parquet(outfile)
     shutil.move(os.path.join(prod_raw_dir, file), os.path.join(processed_dir, file))
 
 #load existing data from outfile
